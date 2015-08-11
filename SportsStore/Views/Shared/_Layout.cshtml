@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap 101 Template</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container">
+        @RenderBody()
+    </div>
+
+
+    <script src="~/Scripts/jquery-2.1.4.min.js"></script>
+    <script src="~/Scripts/knockout-3.3.0.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/storeAjax.js"></script>
+    <script src="~/Scripts/storeModel.js"></script>
+    <script src="~/Scripts/storeCommonController.js"></script>
+    <script src="~/Scripts/storeProductsController.js"></script>
+    <script src="~/Scripts/storeOrdersController.js"></script>
+    @RenderSection("Scripts", false)
+</body>
+</html>
